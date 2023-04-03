@@ -1,7 +1,71 @@
-{
-	"folders": [
-		{
-			"path": "../../Desktop/code"
-		}
-	]
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Annie Baker - UX/UI Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div style='text-align:left'>
+      <img src="UX_UI_HW_17/images/Logo.png"/ alt="Logo">
+      </div>
+        <ul>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#Resume">Resume</a></li>
+      </ul>
+    </nav>
+    <h1>Annie Baker's UX/UI Design Portfolio</h1>
+  </header>
+
+  <main>
+    <section id="photo">
+      <img src="" alt=Photo-of-Annie>
+      <h2>Annie Baker
+        <h3>UX/UI Designer
+    <section id="about">
+      <p>I’m a creative and driven individual who has always had a keen interest in design. 
+I started my career in the hospitality industry where I honed my skills in customer service and problem-solving, all while constantly being inspired by the different cultures and designs I encountered in my world travels.
+Despite my success in the hospitality industry, I always felt drawn towards design and decided to pursue my dream of becoming a UX/UI Designer. I enrolled in a bootcamp program offered by the University of Oregon where I was able to learn the necessary skills and techniques to turn my passion into a career. 
+My dedication and natural talent for design allowed me to create intuitive and user-friendly interfaces that addressed the needs of different users from project to project. As I embark on this new chapter in my career as a UX/UI Designer, I remain committed to using my creativity and skills to create designs that are not only beautiful and functional, but also compassionate and inclusive. </p>
+    </section>
+
+    <section id="portfolio">
+      <center>
+      <h2>MY WORK</h2>
+      <div class="portfolio-item">
+        <img src="image1.jpg" alt="Water U Doing Photo">
+        <h3>"Water U Doing?" Hydration Competition Prototype
+</h3>
+        <p>People are not motivated to stay hydrated despite how crucial it is to our health. The solution is to offer health-conscious people a mobile application to track their hydration and compete in varying hydration challenges against themselves and/or friends.</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="image2.jpg" alt="WA DOL Website Redesign Photo">
+        <h3>Washington Department of Licensing Website Redesign
+</h3>
+        <p>I had five weeks to execute the design process: research, define, ideate, prototype, and test a responsive website solution for the Washington Department of Licensing.
+</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <center>
+      <h2>LET'S CONNECT</h2>
+        <img src="image1.jpg" alt="LinkedIn">
+        <img src="image1.jpg" alt="Email">
+        <img src="image1.jpg" alt="Instagram">
+        <img src="image1.jpg" alt="Phone">
+      </center>
+        
+
+  <footer>
+    <center>
+    <p>Copyright © 2023</p>
+    </center>
+      </footer>
+</body>
+</html>
